@@ -55,17 +55,35 @@
     <Compile Include="Bisection.Designer.cs">
       <DependentUpon>Bisection.cs</DependentUpon>
     </Compile>
+    <Compile Include="CramerRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CramerRule.Designer.cs">
+      <DependentUpon>CramerRule.cs</DependentUpon>
+    </Compile>
     <Compile Include="False-Position.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="False-Position.Designer.cs">
       <DependentUpon>False-Position.cs</DependentUpon>
     </Compile>
+    <Compile Include="GaussElimination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaussElimination.Designer.cs">
+      <DependentUpon>GaussElimination.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LU Decomposition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LU Decomposition.Designer.cs">
+      <DependentUpon>LU Decomposition.cs</DependentUpon>
     </Compile>
     <Compile Include="Newton.cs">
       <SubType>Form</SubType>
@@ -96,11 +114,20 @@
     <EmbeddedResource Include="Bisection.resx">
       <DependentUpon>Bisection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CramerRule.resx">
+      <DependentUpon>CramerRule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="False-Position.resx">
       <DependentUpon>False-Position.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GaussElimination.resx">
+      <DependentUpon>GaussElimination.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LU Decomposition.resx">
+      <DependentUpon>LU Decomposition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Newton.resx">
       <DependentUpon>Newton.cs</DependentUpon>

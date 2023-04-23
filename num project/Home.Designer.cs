@@ -150,6 +150,7 @@ namespace num_project
             this.button7.TabIndex = 10;
             this.button7.Text = "Gauss-Elimination";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -163,6 +164,7 @@ namespace num_project
             this.button8.TabIndex = 11;
             this.button8.Text = "LU_Decomposition";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -176,6 +178,7 @@ namespace num_project
             this.button9.TabIndex = 12;
             this.button9.Text = "Cramer-Rule";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button1
             // 

@@ -78,5 +78,27 @@ namespace num_project
         {
             Application.Exit();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            GaussElimination h = new GaussElimination();
+            h.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            LU_Decomposition h = new LU_Decomposition();
+            h.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            CramerRule h = new CramerRule();
+            h.Show();
+            this.Hide();
+        }
     }
 }
