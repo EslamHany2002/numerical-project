@@ -65,13 +65,14 @@ namespace num_project
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_x3
             // 
             this.txt_x3.Enabled = false;
             this.txt_x3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x3.Location = new System.Drawing.Point(725, 534);
+            this.txt_x3.Location = new System.Drawing.Point(806, 467);
             this.txt_x3.Name = "txt_x3";
             this.txt_x3.Size = new System.Drawing.Size(125, 30);
             this.txt_x3.TabIndex = 97;
@@ -81,7 +82,7 @@ namespace num_project
             // 
             this.txt_x2.Enabled = false;
             this.txt_x2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x2.Location = new System.Drawing.Point(725, 480);
+            this.txt_x2.Location = new System.Drawing.Point(806, 413);
             this.txt_x2.Name = "txt_x2";
             this.txt_x2.Size = new System.Drawing.Size(125, 30);
             this.txt_x2.TabIndex = 96;
@@ -91,11 +92,12 @@ namespace num_project
             // 
             this.txt_x1.Enabled = false;
             this.txt_x1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x1.Location = new System.Drawing.Point(725, 425);
+            this.txt_x1.Location = new System.Drawing.Point(806, 358);
             this.txt_x1.Name = "txt_x1";
             this.txt_x1.Size = new System.Drawing.Size(125, 30);
             this.txt_x1.TabIndex = 95;
             this.txt_x1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_x1.TextChanged += new System.EventHandler(this.txt_x1_TextChanged);
             // 
             // label19
             // 
@@ -103,7 +105,7 @@ namespace num_project
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(674, 531);
+            this.label19.Location = new System.Drawing.Point(755, 464);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(45, 23);
             this.label19.TabIndex = 94;
@@ -115,7 +117,7 @@ namespace num_project
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(674, 480);
+            this.label18.Location = new System.Drawing.Point(755, 413);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(45, 23);
             this.label18.TabIndex = 93;
@@ -127,7 +129,7 @@ namespace num_project
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.SystemColors.Control;
-            this.label17.Location = new System.Drawing.Point(669, 425);
+            this.label17.Location = new System.Drawing.Point(750, 358);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(50, 23);
             this.label17.TabIndex = 92;
@@ -136,7 +138,7 @@ namespace num_project
             // txt_a3
             // 
             this.txt_a3.Enabled = false;
-            this.txt_a3.Location = new System.Drawing.Point(889, 348);
+            this.txt_a3.Location = new System.Drawing.Point(900, 277);
             this.txt_a3.Name = "txt_a3";
             this.txt_a3.Size = new System.Drawing.Size(151, 39);
             this.txt_a3.TabIndex = 91;
@@ -147,16 +149,16 @@ namespace num_project
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(629, 348);
+            this.label5.Location = new System.Drawing.Point(831, 277);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(250, 32);
+            this.label5.Size = new System.Drawing.Size(65, 32);
             this.label5.TabIndex = 90;
-            this.label5.Text = "Determinant of A3 :";
+            this.label5.Text = "A3 :";
             // 
             // txt_a2
             // 
             this.txt_a2.Enabled = false;
-            this.txt_a2.Location = new System.Drawing.Point(889, 291);
+            this.txt_a2.Location = new System.Drawing.Point(900, 220);
             this.txt_a2.Name = "txt_a2";
             this.txt_a2.Size = new System.Drawing.Size(151, 39);
             this.txt_a2.TabIndex = 89;
@@ -167,36 +169,37 @@ namespace num_project
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(629, 291);
+            this.label4.Location = new System.Drawing.Point(831, 220);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(250, 32);
+            this.label4.Size = new System.Drawing.Size(65, 32);
             this.label4.TabIndex = 88;
-            this.label4.Text = "Determinant of A2 :";
+            this.label4.Text = "A2 :";
             // 
             // txt_a1
             // 
             this.txt_a1.Enabled = false;
-            this.txt_a1.Location = new System.Drawing.Point(889, 237);
+            this.txt_a1.Location = new System.Drawing.Point(661, 277);
             this.txt_a1.Name = "txt_a1";
             this.txt_a1.Size = new System.Drawing.Size(151, 39);
             this.txt_a1.TabIndex = 87;
             this.txt_a1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_a1.TextChanged += new System.EventHandler(this.txt_a1_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(629, 237);
+            this.label3.Location = new System.Drawing.Point(592, 277);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(250, 32);
+            this.label3.Size = new System.Drawing.Size(65, 32);
             this.label3.TabIndex = 86;
-            this.label3.Text = "Determinant of A1 :";
+            this.label3.Text = "A1 :";
             // 
             // txt_a
             // 
             this.txt_a.Enabled = false;
-            this.txt_a.Location = new System.Drawing.Point(889, 180);
+            this.txt_a.Location = new System.Drawing.Point(661, 220);
             this.txt_a.Name = "txt_a";
             this.txt_a.Size = new System.Drawing.Size(151, 39);
             this.txt_a.TabIndex = 85;
@@ -208,23 +211,23 @@ namespace num_project
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(629, 180);
+            this.label2.Location = new System.Drawing.Point(592, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 32);
+            this.label2.Size = new System.Drawing.Size(63, 32);
             this.label2.TabIndex = 84;
-            this.label2.Text = "Determinant of A   :";
+            this.label2.Text = "A   :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(189, 145);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(174, 38);
+            this.label6.Size = new System.Drawing.Size(176, 38);
             this.label6.TabIndex = 70;
-            this.label6.Text = "Enter Matrix";
+            this.label6.Text = "Enter Matrix :";
             // 
             // btn_clear
             // 
@@ -263,6 +266,7 @@ namespace num_project
             this.txt_00.Size = new System.Drawing.Size(96, 24);
             this.txt_00.TabIndex = 69;
             this.txt_00.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_00.TextChanged += new System.EventHandler(this.txt_00_TextChanged);
             // 
             // txt_01
             // 
@@ -273,6 +277,7 @@ namespace num_project
             this.txt_01.Size = new System.Drawing.Size(96, 24);
             this.txt_01.TabIndex = 71;
             this.txt_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_01.TextChanged += new System.EventHandler(this.txt_01_TextChanged);
             // 
             // txt_02
             // 
@@ -303,6 +308,7 @@ namespace num_project
             this.txt_10.Size = new System.Drawing.Size(96, 24);
             this.txt_10.TabIndex = 74;
             this.txt_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_10.TextChanged += new System.EventHandler(this.txt_10_TextChanged);
             // 
             // txt_11
             // 
@@ -407,7 +413,7 @@ namespace num_project
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(413, 61);
+            this.label7.Location = new System.Drawing.Point(434, 58);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(221, 49);
             this.label7.TabIndex = 100;
@@ -449,6 +455,18 @@ namespace num_project
             this.label9.TabIndex = 101;
             this.label9.Text = "|";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Transparent;
+            this.label10.Location = new System.Drawing.Point(775, 145);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(107, 38);
+            this.label10.TabIndex = 104;
+            this.label10.Text = "Result :";
+            // 
             // CramerRule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
@@ -456,6 +474,7 @@ namespace num_project
             this.BackgroundImage = global::num_project.Properties.Resources.istockphoto_905432958_612x612;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1076, 596);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
@@ -538,5 +557,6 @@ namespace num_project
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }

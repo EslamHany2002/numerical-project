@@ -97,5 +97,30 @@ namespace num_project
         {
             Application.Exit();
         }
+
+        private void txt_00_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_01_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_10_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_a1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_x1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

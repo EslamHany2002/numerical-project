@@ -46,7 +46,7 @@ namespace num_project
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(473, 188);
+            this.label1.Location = new System.Drawing.Point(493, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(293, 55);
             this.label1.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace num_project
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(405, 243);
+            this.label2.Location = new System.Drawing.Point(425, 249);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(431, 55);
             this.label2.TabIndex = 1;
@@ -102,7 +102,7 @@ namespace num_project
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::num_project.Properties.Resources.Oxygen_Icons_org_Oxygen_Mimetypes_application_vnd_stardivision_calc_256;
-            this.pictureBox1.Location = new System.Drawing.Point(67, 115);
+            this.pictureBox1.Location = new System.Drawing.Point(72, 115);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(332, 315);
             this.pictureBox1.TabIndex = 64;

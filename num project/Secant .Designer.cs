@@ -63,7 +63,7 @@ namespace num_project
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(74, 551);
+            this.button2.Location = new System.Drawing.Point(250, 393);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 43);
             this.button2.TabIndex = 51;
@@ -78,7 +78,7 @@ namespace num_project
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(45, 465);
+            this.button1.Location = new System.Drawing.Point(35, 378);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 73);
             this.button1.TabIndex = 50;
@@ -101,7 +101,7 @@ namespace num_project
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(649, 158);
+            this.textBox5.Location = new System.Drawing.Point(621, 161);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(92, 41);
@@ -114,7 +114,7 @@ namespace num_project
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(551, 164);
+            this.label3.Location = new System.Drawing.Point(523, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 25);
             this.label3.TabIndex = 47;
@@ -123,7 +123,7 @@ namespace num_project
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(141, 227);
+            this.textBox3.Location = new System.Drawing.Point(113, 230);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(92, 41);
@@ -136,7 +136,7 @@ namespace num_project
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(58, 236);
+            this.label2.Location = new System.Drawing.Point(30, 236);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 25);
             this.label2.TabIndex = 45;
@@ -148,7 +148,7 @@ namespace num_project
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(58, 167);
+            this.label1.Location = new System.Drawing.Point(30, 170);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 25);
             this.label1.TabIndex = 44;
@@ -157,7 +157,7 @@ namespace num_project
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(141, 158);
+            this.textBox1.Location = new System.Drawing.Point(113, 161);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(376, 41);
@@ -166,7 +166,7 @@ namespace num_project
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(867, 158);
+            this.textBox2.Location = new System.Drawing.Point(839, 161);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(92, 41);
@@ -179,7 +179,7 @@ namespace num_project
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(793, 164);
+            this.label4.Location = new System.Drawing.Point(765, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 25);
             this.label4.TabIndex = 52;
@@ -195,7 +195,7 @@ namespace num_project
             this.Column2,
             this.Column3,
             this.Column8});
-            this.dataGridView1.Location = new System.Drawing.Point(451, 236);
+            this.dataGridView1.Location = new System.Drawing.Point(399, 236);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -251,7 +251,7 @@ namespace num_project
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label6.Location = new System.Drawing.Point(697, 545);
+            this.label6.Location = new System.Drawing.Point(645, 545);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(125, 25);
             this.label6.TabIndex = 57;
@@ -260,7 +260,7 @@ namespace num_project
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(846, 537);
+            this.textBox6.Location = new System.Drawing.Point(794, 537);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(92, 41);
@@ -273,7 +273,7 @@ namespace num_project
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label5.Location = new System.Drawing.Point(490, 546);
+            this.label5.Location = new System.Drawing.Point(438, 546);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 25);
             this.label5.TabIndex = 55;
@@ -283,7 +283,7 @@ namespace num_project
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(574, 537);
+            this.textBox4.Location = new System.Drawing.Point(522, 537);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(92, 41);

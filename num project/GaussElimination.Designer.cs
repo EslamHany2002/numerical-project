@@ -257,7 +257,7 @@ namespace num_project
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(684, 155);
+            this.label3.Location = new System.Drawing.Point(564, 155);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 32);
             this.label3.TabIndex = 55;
@@ -268,7 +268,7 @@ namespace num_project
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(40, 174);
+            this.label2.Location = new System.Drawing.Point(34, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(188, 32);
             this.label2.TabIndex = 54;
@@ -425,7 +425,7 @@ namespace num_project
             // 
             this.txt_x3.Enabled = false;
             this.txt_x3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x3.Location = new System.Drawing.Point(988, 547);
+            this.txt_x3.Location = new System.Drawing.Point(978, 480);
             this.txt_x3.Name = "txt_x3";
             this.txt_x3.Size = new System.Drawing.Size(76, 30);
             this.txt_x3.TabIndex = 47;
@@ -446,7 +446,7 @@ namespace num_project
             // 
             this.txt_x2.Enabled = false;
             this.txt_x2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x2.Location = new System.Drawing.Point(852, 547);
+            this.txt_x2.Location = new System.Drawing.Point(842, 480);
             this.txt_x2.Name = "txt_x2";
             this.txt_x2.Size = new System.Drawing.Size(76, 30);
             this.txt_x2.TabIndex = 46;
@@ -466,7 +466,7 @@ namespace num_project
             // 
             this.txt_x1.Enabled = false;
             this.txt_x1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.txt_x1.Location = new System.Drawing.Point(712, 546);
+            this.txt_x1.Location = new System.Drawing.Point(702, 479);
             this.txt_x1.Name = "txt_x1";
             this.txt_x1.Size = new System.Drawing.Size(76, 30);
             this.txt_x1.TabIndex = 45;
@@ -478,7 +478,7 @@ namespace num_project
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(939, 550);
+            this.label19.Location = new System.Drawing.Point(929, 483);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(45, 23);
             this.label19.TabIndex = 44;
@@ -500,7 +500,7 @@ namespace num_project
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(801, 549);
+            this.label18.Location = new System.Drawing.Point(791, 482);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(45, 23);
             this.label18.TabIndex = 43;
@@ -523,7 +523,7 @@ namespace num_project
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(657, 548);
+            this.label17.Location = new System.Drawing.Point(647, 481);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(50, 23);
             this.label17.TabIndex = 42;
